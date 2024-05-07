@@ -1,0 +1,104 @@
+@charset "UTF-8";
+:root{
+    --fundo:#CED6DE;
+    --caixa:rgb(231, 231, 231);
+    --titulo:rgb(255, 255, 255);
+    --texto:rgb(0, 0, 0);
+}
+@font-face {
+    font-family:"Monster" ;
+    src: url(RunyTunesRevisitedNF.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    color: var(--texto);
+}
+
+div#conte{
+    
+    position: absolute;
+    top:50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+header > h1{
+    margin-bottom: 15px;
+
+    font-size: 1.5rem;
+    text-align: center;
+    color:var(--titulo);   
+
+}
+section{
+    margin: auto;
+
+    width:330px;
+    height: 350px;   
+
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+#sec{
+    display:inline-block;
+     
+    width: 100%;
+    height: 100%;
+
+    
+}
+#myAudio{
+    display: none;
+}
+#bottom{
+    width: 100%;
+    height: 150px;
+
+    position: absolute;
+    top:45%; left: 50%;
+    transform: translate(-50%,-50%);
+
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.172);
+    border-radius: 25px;
+
+    background-color:#D51777;
+    color: #ffffff;
+    font:25px "Monster",Arial;
+    border: 1px solid white;
+
+    cursor: pointer;
+
+}
+#bottom:hover{
+    width: 70%;
+    background-color:#000000;
+
+    transition:.9s;
+    transition-timing-function: ease;
+}
+#sec1{
+    display: none;
+    margin:0;
+    background: #008C70 url(background.gif) center center no-repeat;
+    background-size: cover;
+    width:100vw;
+    height: 99.582vh;
+    text-align: center;
+
+}
+#img{
+    position: absolute;
+    width:40vw;
+min-width: 350px;
+    top:50%; left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid white;
+
+}
+
+
+
+
